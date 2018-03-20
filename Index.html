@@ -9,32 +9,7 @@
 	<body>
 		<h1>Desafio dos Pontinhos</h1>
 		<div id="conteudo">	
-			<script type="text/javascript">
-				
-				var Teste = {					
-					 validaPontos:function(number){
-						var aux = number;
-
-						for (var i = 0; i<number; i++) {
-							
-							for(j=aux; j<number;j++){
-								document.write("&nbsp&nbsp");
-							}
-
-							for (j=0;j<aux;j++){						
-								document.write("*");
-							}
-
-							document.write("<br>");
-							aux-=1;
-						}
-					}
-				}
-
-				var x = parseInt(prompt("Digite o numero"));
-				Teste.validaPontos(x);
-
-			</script>
+			<script type="text/javascript" src="escadinha.js"></script>
 		</div>	
 	</body>
 </html>
