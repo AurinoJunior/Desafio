@@ -25,9 +25,10 @@ var Teste = {
 	}
 }
 
-//var x = parseInt(prompt("Digite o numero"));
-var resultado = Teste.validaPontos(x);
+//Descomente para sair do modo teste
 
-//document.write(resultado);
+/*var x = parseInt(prompt("Digite o numero"));
+var resultado = Teste.validaPontos(x);
+document.write(resultado);*/
 
 
